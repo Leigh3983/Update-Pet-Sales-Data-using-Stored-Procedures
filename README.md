@@ -1,4 +1,4 @@
-# Pet-Sales
+# Using Stored Procedures to Update Pet Sales Data
 
 The stored procedure, RETRIEVE_ALL, is simply used to retrieve the information from the PETSALE table.
 The stored procedure, UPDATE_SALEPRICE, is used to update the sale price of the animals in the PETSALE table depending on their health conditions, BAD or WORSE. The procedure takes in the animal ID and their health codition as parameters. It uses these parameters to update the sale price of the respective animal in the PETSALE table by a certain amount.
