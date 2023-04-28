@@ -1,0 +1,13 @@
+CALL RETRIEVE_ALL;
+
+CALL UPDATE_SALEPRICE(1, 'BAD');        -- Caller query updates the sale price of Animal with ID '1' and health condition 'BAD'
+
+                                        -- This will reduce the sale price by 25% (Sale price of cat changes from $450 to $337.56)
+
+
+CALL UPDATE_SALEPRICE(3, 'WORSE');      -- Caller query updates the sale price of Animal with ID '3' and health condition 'WORSE'
+
+                      				          -- This will reduce the sale price by 50% (Sale price of parrot changes from $50 to $25)
+                                        
+CALL RETRIEVE_ALL;		
+
